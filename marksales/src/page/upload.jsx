@@ -70,8 +70,8 @@ async function Handlesubmit (e) {
                             <div>
                                 <select onChange={(e)=>{setOption(e.target.value)}}>
                                     <option disabled selected>-Select One-</option>
-                                    <option value='http://http://31.97.51.179:8081/upload'>Production</option>
-                                    <option value='http://http://31.97.51.179:8081/profile'>Profile</option>
+                                    <option value='http://31.97.51.179:8081/upload'>Production</option>
+                                    <option value='http://31.97.51.179:8081/profile'>Profile</option>
                                 </select>
                             </div>
                             <br/>
