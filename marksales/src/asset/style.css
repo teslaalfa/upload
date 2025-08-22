@@ -1,0 +1,210 @@
+body {
+    font-family: calibri;
+}
+
+.wraplogin {
+    background-color: rgb(19, 24, 39);
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.loginline {
+    background-color: rgba(19, 16, 16, 0.445);
+    width: fit-content;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titlelogin {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    color:  rgb(132, 207, 212);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input.flogin{
+   border-radius: 5px;
+   text-align: center;
+}
+
+input.sflogin{
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(132, 207, 212);
+}
+
+form > label {
+    color: rgb(132, 207, 212);
+}
+
+/* ================================================================== */
+
+.head {
+    background-color: rgb(19, 24, 39);
+    border-radius: 5px;
+    color:rgb(132, 207, 212);
+}
+
+.menu {
+    background-color: rgb(19, 24, 39);
+    border-radius: 10px;
+    color:rgb(132, 207, 212);
+}
+
+.foot {
+    background-color: rgb(19, 24, 39);
+    border: white solid;
+    border-radius: 5px;
+    color:rgb(235, 235, 235);
+}
+
+/* ======================================================= */
+
+.menu {
+    border: white solid;
+}
+
+.linkup{
+    color: white;
+    text-decoration: none;
+}
+
+.Lup:hover, .linkup:hover {
+    color: rgb(19, 92, 110);
+}
+
+.linknav > ul {
+    /* border: yellow dotted; */
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.linknav >ul> li {
+    /* border: green dotted; */
+    padding-top: 30px;
+    padding-bottom: 15px;
+    list-style-type: none;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.linknav > ul {
+    /* border: yellow dotted; */
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linknav {
+     color:rgb(132, 207, 212);
+}
+
+/* ============================================================= */
+
+.containHeader {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.titleHeader {
+    font-family: calibri;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+.profile {
+    padding:10px ;
+}
+
+/* ================================================================= */
+
+@media only screen and (max-width:768px) {
+    .linknav >ul> li {
+        padding: 20px;
+        display: inline;
+        font-size: small;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .linknav >ul> li {
+        padding: 20px;
+        display: inline;
+        font-size: small;
+    }
+}
+
+@media only screen and (min-width:928px) {
+    .linknav >ul> li {
+        padding: 20px;
+        display: inline;
+        font-size: small;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .linknav >ul> li {
+        padding: 20px;
+        display: block;
+        font-size: small;
+    }
+}
+
+.header{
+    border: red dotted;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.dashboard {
+    /* border : dotted rgb(195, 111, 221); */
+    width: 100%;
+    height: 525px;
+    overflow: scroll;
+}
+
+@media only screen and (max-width:500px) {
+    .dashboard {height:465px}
+    .maincontent {height: 470px;}
+    .wrapper{display: block;}
+}
+
+@media only screen and (min-width:567px) {
+    .dashboard {height:545px}
+    .boxcontent {height: 645px;}
+    .midcontent {height: 555px;}
+    .maincontent {height: 550px;}
+    .wrapper {display: grid;
+    grid-template-columns: repeat(3,1fr)}
+}
+
+@media only screen and (min-width:740px) {
+   .menu {display: inline;}
+   .wrapper {display: grid;
+    grid-template-columns: repeat(3,1fr)}
+}
+
+
+
+/* .Pie{
+    border: dotted red;
+    background-color: black;
+}
+
+.Barchart2 {
+    border: dotted yellow;
+    background-color: red;
+} */
+
+
+
