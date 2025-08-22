@@ -1,11 +1,10 @@
 import axios from 'axios'
 
-let url1 = 'http://http://31.97.51.179:8081/bybranch';
-let url2 = 'http://http://31.97.51.179:8081/bycob';
-let url3 = 'http://http://31.97.51.179:8081/api/progress';
-let url4 = 'http://http://31.97.51.179:8081/bylob';
-let url5 = 'http://http://31.97.51.179:8081/legend';
-
+let url1 = 'http://31.97.51.179:8081/bybranch';
+let url2 = 'http://31.97.51.179:8081/bycob';
+let url3 = 'http://31.97.51.179:8081/api/progress';
+let url4 = 'http://31.97.51.179:8081/bylob';
+let url5 = 'http://31.97.51.179:8081/legend';
 
 export async  function getBybranch () {
     const getDatabranch = await axios.get (url1);
