@@ -1,10 +1,10 @@
 import axios from 'axios'
 
-let url1 = 'http://api.imodul.xyz/bybranch';
-let url2 = 'http://api.imodul.xyz/bycob';
-let url3 = 'http://api.imodul.xyz/api/progress';
-let url4 = 'http://api.imodul.xyz/bylob';
-let url5 = 'http://api.imodul.xyz/legend';
+let url1 = 'http://http://31.97.51.179:8081/bybranch';
+let url2 = 'http://http://31.97.51.179:8081/bycob';
+let url3 = 'http://http://31.97.51.179:8081/api/progress';
+let url4 = 'http://http://31.97.51.179:8081/bylob';
+let url5 = 'http://http://31.97.51.179:8081/legend';
 
 
 export async  function getBybranch () {
